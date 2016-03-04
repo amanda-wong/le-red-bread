@@ -1,0 +1,32 @@
+.site-header {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    border-top: 1px solid #d3d3d3;
+}
+
+.social-container {
+    padding: 30px 0;
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .social {
+        width: auto;
+        i {
+            margin: 10px;
+            color: #808080;
+        }
+    }
+}
+
+.logo-wrapper {
+    width: 300px;
+    height: auto;
+    img {
+        width: 100%;
+
+    }
+}
