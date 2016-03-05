@@ -240,14 +240,14 @@ th {
   font-family: 'open_sans';
   src: url("assets/fonts/opensans-light-webfont.eot");
   src: url("assets/fonts/opensans-light-webfont.eot?#iefix") format("embedded-opentype"), url("assets/fonts/opensans-light-webfont.woff2") format("woff2"), url("assets/fonts/opensans-light-webfont.woff") format("woff"), url("assets/fonts/opensans-light-webfont.ttf") format("truetype"), url("assets/fonts/opensans-light-webfont.svg#open_sanslight") format("svg");
-  font-weight: light;
+  font-weight: 100;
   font-style: normal; }
 
 @font-face {
   font-family: 'open_sans';
   src: url("assets/fonts/opensans-lightitalic-webfont.eot");
   src: url("assets/fonts/opensans-lightitalic-webfont.eot?#iefix") format("embedded-opentype"), url("assets/fonts/opensans-lightitalic-webfont.woff2") format("woff2"), url("assets/fonts/opensans-lightitalic-webfont.woff") format("woff"), url("assets/fonts/opensans-lightitalic-webfont.ttf") format("truetype"), url("assets/fonts/opensans-lightitalic-webfont.svg#open_sanslight_italic") format("svg");
-  font-weight: light;
+  font-weight: 100;
   font-style: italic; }
 
 @font-face {
@@ -461,7 +461,22 @@ textarea {
 
 .search-form fieldset {
   border: none;
-  height: 30px; }
+  height: 30px;
+  width: 270px; }
+
+.search-form input {
+  border: none;
+  font-family: 'open_sans', sans-serif;
+  font-weight: 100;
+  font-style: normal; }
+  .search-form input:focus {
+    outline: none; }
+
+.search-submit {
+  background: none;
+  box-shadow: none;
+  border: none;
+  font-size: 15px; }
 
 .site-header {
   display: -webkit-flex;
@@ -552,7 +567,22 @@ a {
 
 .main-navigation {
   border-top: 1px solid #d3d3d3;
-  border-bottom: 1px solid #d3d3d3; }
+  border-bottom: 1px solid #d3d3d3;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto; }
+  .main-navigation div {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 1000px;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
   .main-navigation li {
     padding: 10px 20px;
     border-left: 1px solid #d3d3d3;
@@ -737,14 +767,16 @@ a {
   .contact p {
     display: inline-block; }
   .contact h3 {
-    height: 10px; }
+    height: 10px;
+    font-family: 'overlock', sans-serif;
+    color: #333; }
   .contact div:nth-child(2), .contact div:nth-child(3) {
     height: 35px; }
   .contact div:nth-child(4) {
     padding-top: 20px; }
 
 .logo-footer-wrapper {
-  width: 500px; }
+  width: 280px; }
   .logo-footer-wrapper img {
     width: 100%; }
 

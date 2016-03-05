@@ -65,5 +65,23 @@ textarea {
 	fieldset {
 		border: none;
 		height: 30px;
+		width: 270px;
 	}
+	input {
+		border: none;
+		font-family: 'open_sans', sans-serif;
+		font-weight: 100;
+		font-style: normal;
+		&:focus {
+		outline: none;
+		}
+	}
+}
+
+.search-submit {
+	background: none;
+	box-shadow: none;
+	border: none;
+	font-size: 15px;
+
 }

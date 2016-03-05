@@ -28,8 +28,9 @@
 					</div>
 					<div class="business-hours">
 						<h3>Business Hours</h3>
-						<ul>
-							<li><
+						<p><strong>Monday - Friday:</strong> 9am to 5pm</p>
+						<p><strong>Saturday:</strong> 10am to 2pm</p>
+						<p><strong>Sunday:</strong> Closed</p>
 					</div>
 				</div><!-- .site-info -->
 				<span class="copyright">Copyright &copy; <?php echo date('Y'); ?> Le Red Bread</span>

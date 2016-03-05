@@ -98,6 +98,15 @@ a {
 .main-navigation {
 	border-top: 1px solid #d3d3d3;
 	border-bottom: 1px solid #d3d3d3;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	div {
+		display: flex;
+		width: 1000px;
+		justify-content: space-between;
+	}
+
 	li {
 		padding: 10px 20px;
 		border-left: 1px solid #d3d3d3;

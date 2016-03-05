@@ -22,6 +22,8 @@
     }
     h3 {
         height: 10px;
+        font-family: 'overlock', sans-serif;
+        color: #333;
     }
     div:nth-child(2), div:nth-child(3) {
      height: 35px;
@@ -32,7 +34,7 @@
 }
 
 .logo-footer-wrapper {
-    width: 500px;
+    width: 280px;
     img {
         width: 100%;
     }
