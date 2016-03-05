@@ -95,6 +95,8 @@ a {
 	}
 }
 
+
+
 .main-navigation {
 	border-top: 1px solid #d3d3d3;
 	border-bottom: 1px solid #d3d3d3;
@@ -116,7 +118,9 @@ a {
 		&:last-child {
 			border-right: 1px solid #d3d3d3;
 		}
-
+		&:hover {
+			cursor: pointer;
+		}
 		a {
 			color: #808080;
 			&:hover {

@@ -62,10 +62,20 @@ textarea {
 }
 
 .search-form {
+
 	fieldset {
+		padding-right: 0;
+		width: 240px;
 		border: none;
-		height: 30px;
-		width: 270px;
+		width: 220px;
+		height: 44px;
+		label {
+			width: 175px;
+
+		}
+		.fa.fa-search {
+			color: #808080;
+		}
 	}
 	input {
 		border: none;
@@ -83,5 +93,5 @@ textarea {
 	box-shadow: none;
 	border: none;
 	font-size: 15px;
-
+	padding: 5px;
 }

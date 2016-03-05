@@ -224,57 +224,57 @@ th {
 --------------------------------------------------------------*/
 @font-face {
   font-family: 'open_sans';
-  src: url("assets/fonts/opensans-bold-webfont.eot");
-  src: url("assets/fonts/opensans-bold-webfont.eot?#iefix") format("embedded-opentype"), url("assets/fonts/opensans-bold-webfont.woff2") format("woff2"), url("assets/fonts/opensans-bold-webfont.woff") format("woff"), url("assets/fonts/opensans-bold-webfont.ttf") format("truetype"), url("assets/fonts/opensans-bold-webfont.svg#open_sansbold") format("svg");
+  src: url("../../assets/fonts/opensans-bold-webfont.eot");
+  src: url("../../assets/fonts/opensans-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/opensans-bold-webfont.woff2") format("woff2"), url("../../assets/fonts/opensans-bold-webfont.woff") format("woff"), url("../../assets/fonts/opensans-bold-webfont.ttf") format("truetype"), url("../../assets/fonts/opensans-bold-webfont.svg#open_sansbold") format("svg");
   font-weight: bold;
   font-style: normal; }
 
 @font-face {
   font-family: 'open_sans';
-  src: url("assets/fonts/opensans-bolditalic-webfont.eot");
-  src: url("assets/fonts/opensans-bolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("assets/fonts/opensans-bolditalic-webfont.woff2") format("woff2"), url("assets/fonts/opensans-bolditalic-webfont.woff") format("woff"), url("assets/fonts/opensans-bolditalic-webfont.ttf") format("truetype"), url("assets/fonts/opensans-bolditalic-webfont.svg#open_sansbold_italic") format("svg");
+  src: url("../../assets/fonts/opensans-bolditalic-webfont.eot");
+  src: url("../../assets/fonts/opensans-bolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/opensans-bolditalic-webfont.woff2") format("woff2"), url("../../assets/fonts/opensans-bolditalic-webfont.woff") format("woff"), url("../../assets/fonts/opensans-bolditalic-webfont.ttf") format("truetype"), url("../../assets/fonts/opensans-bolditalic-webfont.svg#open_sansbold_italic") format("svg");
   font-weight: bold;
   font-style: italic; }
 
 @font-face {
   font-family: 'open_sans';
-  src: url("assets/fonts/opensans-light-webfont.eot");
-  src: url("assets/fonts/opensans-light-webfont.eot?#iefix") format("embedded-opentype"), url("assets/fonts/opensans-light-webfont.woff2") format("woff2"), url("assets/fonts/opensans-light-webfont.woff") format("woff"), url("assets/fonts/opensans-light-webfont.ttf") format("truetype"), url("assets/fonts/opensans-light-webfont.svg#open_sanslight") format("svg");
+  src: url("../../assets/fonts/opensans-light-webfont.eot");
+  src: url("../../assets/fonts/opensans-light-webfont.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/opensans-light-webfont.woff2") format("woff2"), url("../../assets/fonts/opensans-light-webfont.woff") format("woff"), url("../../assets/fonts/opensans-light-webfont.ttf") format("truetype"), url("../../assets/fonts/opensans-light-webfont.svg#open_sanslight") format("svg");
+  font-weight: light;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'open_sans';
+  src: url("../../assets/fonts/opensans-lightitalic-webfont.eot");
+  src: url("../../assets/fonts/opensans-lightitalic-webfont.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/opensans-lightitalic-webfont.woff2") format("woff2"), url("../../assets/fonts/opensans-lightitalic-webfont.woff") format("woff"), url("../../assets/fonts/opensans-lightitalic-webfont.ttf") format("truetype"), url("../../assets/fonts/opensans-lightitalic-webfont.svg#open_sanslight_italic") format("svg");
   font-weight: 100;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'open_sans';
-  src: url("assets/fonts/opensans-lightitalic-webfont.eot");
-  src: url("assets/fonts/opensans-lightitalic-webfont.eot?#iefix") format("embedded-opentype"), url("assets/fonts/opensans-lightitalic-webfont.woff2") format("woff2"), url("assets/fonts/opensans-lightitalic-webfont.woff") format("woff"), url("assets/fonts/opensans-lightitalic-webfont.ttf") format("truetype"), url("assets/fonts/opensans-lightitalic-webfont.svg#open_sanslight_italic") format("svg");
-  font-weight: 100;
   font-style: italic; }
 
 @font-face {
   font-family: 'overlock';
-  src: url("assets/fonts/overlock-bold-webfont.eot");
-  src: url("assets/fonts/overlock-bold-webfont.eot?#iefix") format("embedded-opentype"), url("assets/fonts/overlock-bold-webfont.woff2") format("woff2"), url("assets/fonts/overlock-bold-webfont.woff") format("woff"), url("assets/fonts/overlock-bold-webfont.ttf") format("truetype"), url("assets/fonts/overlock-bold-webfont.svg#overlockbold") format("svg");
+  src: url("../../assets/fonts/overlock-bold-webfont.eot");
+  src: url("../../assets/fonts/overlock-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/overlock-bold-webfont.woff2") format("woff2"), url("../../assets/fonts/overlock-bold-webfont.woff") format("woff"), url("../../assets/fonts/overlock-bold-webfont.ttf") format("truetype"), url("../../assets/fonts/overlock-bold-webfont.svg#overlockbold") format("svg");
   font-weight: bold;
   font-style: normal; }
 
 @font-face {
   font-family: 'overlock';
-  src: url("assets/fonts/overlock-bolditalic-webfont.eot");
-  src: url("assets/fonts/overlock-bolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("assets/fonts/overlock-bolditalic-webfont.woff2") format("woff2"), url("assets/fonts/overlock-bolditalic-webfont.woff") format("woff"), url("assets/fonts/overlock-bolditalic-webfont.ttf") format("truetype"), url("assets/fonts/overlock-bolditalic-webfont.svg#overlockbold_italic") format("svg");
+  src: url("../../assets/fonts/overlock-bolditalic-webfont.eot");
+  src: url("../../assets/fonts/overlock-bolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/overlock-bolditalic-webfont.woff2") format("woff2"), url("../../assets/fonts/overlock-bolditalic-webfont.ttf") format("truetype"), url("../../assets/fonts/overlock-bolditalic-webfont.woff") format("woff"), url("../../assets/fonts/overlock-bolditalic-webfont.svg#overlockbold_italic") format("svg");
   font-weight: bold;
   font-style: italic; }
 
 @font-face {
   font-family: 'overlock';
-  src: url("assets/fonts/overlock-italic-webfont.eot");
-  src: url("assets/fonts/overlock-italic-webfont.eot?#iefix") format("embedded-opentype"), url("assets/fonts/overlock-italic-webfont.woff2") format("woff2"), url("assets/fonts/overlock-italic-webfont.woff") format("woff"), url("assets/fonts/overlock-italic-webfont.ttf") format("truetype"), url("assets/fonts/overlock-italic-webfont.svg#overlockitalic") format("svg");
+  src: url("../../assets/fonts/overlock-italic-webfont.eot");
+  src: url("../../assets/fonts/overlock-italic-webfont.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/overlock-italic-webfont.woff2") format("woff2"), url("../../assets/fonts/overlock-italic-webfont.woff") format("woff"), url("../../assets/fonts/overlock-italic-webfont.ttf") format("truetype"), url("../../assets/fonts/overlock-italic-webfont.svg#overlockitalic") format("svg");
   font-weight: normal;
   font-style: italic; }
 
 @font-face {
   font-family: 'overlock';
-  src: url("assets/fonts/overlock-regular-webfont.eot");
-  src: url("assets/fonts/overlock-regular-webfont.eot?#iefix") format("embedded-opentype"), url("assets/fonts/overlock-regular-webfont.woff2") format("woff2"), url("assets/fonts/overlock-regular-webfont.woff") format("woff"), url("assets/fonts/overlock-regular-webfont.ttf") format("truetype"), url("assets/fonts/overlock-regular-webfont.svg#overlockregular") format("svg");
+  src: url("../../assets/fonts/overlock-regular-webfont.eot");
+  src: url("../../assets/fonts/overlock-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/overlock-regular-webfont.woff2") format("woff2"), url("../../assets/fonts/overlock-regular-webfont.woff") format("woff"), url("../../assets/fonts/overlock-regular-webfont.ttf") format("truetype"), url("../../assets/fonts/overlock-regular-webfont.svg#overlockregular") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -460,9 +460,15 @@ textarea {
   width: 100%; }
 
 .search-form fieldset {
+  padding-right: 0;
+  width: 240px;
   border: none;
-  height: 30px;
-  width: 270px; }
+  width: 220px;
+  height: 44px; }
+  .search-form fieldset label {
+    width: 175px; }
+  .search-form fieldset .fa.fa-search {
+    color: #808080; }
 
 .search-form input {
   border: none;
@@ -476,7 +482,8 @@ textarea {
   background: none;
   box-shadow: none;
   border: none;
-  font-size: 15px; }
+  font-size: 15px;
+  padding: 5px; }
 
 .site-header {
   display: -webkit-flex;
@@ -590,6 +597,8 @@ a {
     font-weight: bold; }
     .main-navigation li:last-child {
       border-right: 1px solid #d3d3d3; }
+    .main-navigation li:hover {
+      cursor: pointer; }
     .main-navigation li a {
       color: #808080; }
       .main-navigation li a:hover {
@@ -634,6 +643,97 @@ a {
   float: right;
   text-align: right;
   width: 50%; }
+
+.hero {
+  background: url("../../uploads/2016/03/hero-bread-1024x430.jpg"); }
+
+.site-info {
+  padding: 30px;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #222;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.site-info-inner {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 1000px;
+  margin: 0 auto; }
+
+.contact {
+  -webkit-flex-basis: 33%;
+      -ms-flex-preferred-size: 33%;
+          flex-basis: 33%;
+  height: auto; }
+  .contact h3 {
+    height: 10px;
+    font-family: 'overlock', sans-serif;
+    text-transform: uppercase;
+    color: grey;
+    font-size: 20px; }
+  .contact p {
+    display: inline-block; }
+  .contact a {
+    color: #fff;
+    font-family: 'open_sans', sans-serif;
+    font-weight: lighter; }
+  .contact div:nth-child(2), .contact div:nth-child(3) {
+    height: 35px; }
+  .contact div:nth-child(4) {
+    padding-top: 20px; }
+  .contact .fa.fa-envelope, .contact .fa.fa-phone, .contact .fa.fa-facebook-square,
+  .contact .fa.fa-twitter-square, .contact .fa.fa-google-plus-square {
+    font-size: 22px;
+    color: #fff;
+    padding-right: 10px; }
+
+.logo-footer-wrapper {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-basis: 33%;
+      -ms-flex-preferred-size: 33%;
+          flex-basis: 33%;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 280px; }
+
+.business-hours {
+  -webkit-flex-basis: 33%;
+      -ms-flex-preferred-size: 33%;
+          flex-basis: 33%;
+  padding-left: 100px; }
+  .business-hours h3 {
+    font-size: 20px;
+    font-family: 'overlock', sans-serif;
+    color: grey;
+    text-transform: uppercase; }
+  .business-hours p {
+    color: #fff;
+    line-height: 10px;
+    font-family: 'open_sans', sans-serif;
+    font-weight: light; }
+
+.copyright {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 30px 0;
+  background-color: #333;
+  color: #fff;
+  font-size: 12.8px;
+  font-family: 'open_sans', sans-serif; }
 
 /*--------------------------------------------------------------
 # Accessibility
@@ -742,49 +842,6 @@ a {
 
 .bypostauthor {
   display: block; }
-
-.site-info {
-  background-color: #222;
-  margin-bottom: -25px; }
-
-.copyright {
-  width: 100%;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding: 30px 0;
-  background-color: #333;
-  color: #fff;
-  font-size: 12.8px;
-  font-family: 'open_sans', sans-serif; }
-
-.contact {
-  width: 300px;
-  height: auto; }
-  .contact p {
-    display: inline-block; }
-  .contact h3 {
-    height: 10px;
-    font-family: 'overlock', sans-serif;
-    color: #333; }
-  .contact div:nth-child(2), .contact div:nth-child(3) {
-    height: 35px; }
-  .contact div:nth-child(4) {
-    padding-top: 20px; }
-
-.logo-footer-wrapper {
-  width: 280px; }
-  .logo-footer-wrapper img {
-    width: 100%; }
-
-.fa.fa-envelope, .fa.fa-phone, .fa.fa-facebook-square,
-.fa.fa-twitter-square, .fa.fa-google-plus-square {
-  font-size: 22px;
-  color: #fff;
-  padding-right: 10px; }
 
 /*--------------------------------------------------------------
 # Media
