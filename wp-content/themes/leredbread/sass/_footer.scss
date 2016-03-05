@@ -1,3 +1,8 @@
+.site-info {
+    background-color: #222;
+    margin-bottom: -25px;
+}
+
 .copyright {
     width: 100%;
     display: flex;
@@ -10,9 +15,32 @@
 }
 
 .contact {
-    width: 180px;
+    width: 300px;
     height: auto;
     p {
     display: inline-block;
     }
+    h3 {
+        height: 10px;
+    }
+    div:nth-child(2), div:nth-child(3) {
+     height: 35px;
+    }
+    div:nth-child(4) {
+        padding-top: 20px;
+    }
+}
+
+.logo-footer-wrapper {
+    width: 500px;
+    img {
+        width: 100%;
+    }
+}
+
+.fa.fa-envelope, .fa.fa-phone, .fa.fa-facebook-square,
+.fa.fa-twitter-square, .fa.fa-google-plus-square {
+    font-size: 22px;
+    color: #fff;
+    padding-right: 10px;
 }
