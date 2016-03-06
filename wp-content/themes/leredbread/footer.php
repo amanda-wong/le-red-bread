@@ -18,7 +18,7 @@
 								<i class="fa fa-envelope"></i><a href="mailto:info@leredbread.com"><p>info@leredbread.com</p></a>
 							</div>
 							<div>
-								<i class="fa fa-phone"></i><a href="tel:555343554"><p>(555) 343 7891</p></a>
+								<i class="fa fa-phone"></i><a href="tel:5553434567891"><p>(555) 343 456 7891</p></a>
 							</div>
 							<div>
 								<i class="fa fa-facebook-square"></i><i class="fa fa-twitter-square"></i><i class="fa fa-google-plus-square"></i>

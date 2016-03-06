@@ -544,6 +544,7 @@ a {
     text-decoration: none; }
 
 .main-navigation {
+  box-shadow: 0 8px 6px -9px grey;
   border-top: 1px solid #d3d3d3;
   border-bottom: 1px solid #d3d3d3;
   display: -webkit-flex;
@@ -797,14 +798,54 @@ a {
 # Widgets
 --------------------------------------------------------------*/
 .widget {
+  padding-left: 50px;
   margin: 0 0 1.5em;
   /* Make sure select elements fit in widgets. */ }
   .widget select {
     max-width: 100%; }
+  .widget .widget-title {
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-transform: uppercase; }
+  .widget ul {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0; }
+    .widget ul li a {
+      font-family: 'open_sans', sans-serif;
+      font-size: 16px;
+      text-decoration: none;
+      color: #db272a; }
+      .widget ul li a:hover {
+        text-decoration: underline;
+        color: #861618; }
 
 /* Search widget. */
 .widget_search .search-submit {
   display: none; }
+
+/* contact widget. */
+.contact-widget div {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  .contact-widget div div {
+    position: relative; }
+    .contact-widget div div i {
+      position: absolute;
+      top: 5px;
+      color: grey; }
+  .contact-widget div a {
+    text-decoration: none;
+    padding-top: 0;
+    color: #db272a; }
+    .contact-widget div a:hover {
+      text-decoration: underline;
+      color: #861618; }
+  .contact-widget div p {
+    font-family: 'open_sans', sans-serif;
+    font-weight: light;
+    margin: 0 0 0 30px; }
 
 /*--------------------------------------------------------------
 # Content
@@ -831,6 +872,22 @@ a {
 .page-links {
   clear: both;
   margin: 0 0 1.5em; }
+
+.site-content {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  .site-content .content-area {
+    padding: 30px 70px 30px 100px;
+    -webkit-flex-basis: 70%;
+        -ms-flex-preferred-size: 70%;
+            flex-basis: 70%; }
+  .site-content .widget-area {
+    border-left: 1px solid #d3d3d3;
+    -webkit-flex-basis: 30%;
+        -ms-flex-preferred-size: 30%;
+            flex-basis: 30%;
+    padding-top: 30px; }
 
 /* Asides */
 .blog .format-aside .entry-title,

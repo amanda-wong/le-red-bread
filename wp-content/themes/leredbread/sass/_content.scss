@@ -32,6 +32,20 @@
 	margin: 0 0 $base__space-unit;
 }
 
+.site-content {
+	display: flex;
+	.content-area {
+		padding: 30px 70px 30px 100px;
+		flex-basis: 70%;
+	}
+	.widget-area{
+		border-left: 1px solid #d3d3d3;
+		flex-basis: 30%;
+		padding-top: 30px;
+	}
+}
+
+
 /* Asides */
 
 .blog .format-aside .entry-title,

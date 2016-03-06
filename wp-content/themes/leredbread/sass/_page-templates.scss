@@ -3,3 +3,81 @@
 --------------------------------------------------------------*/
 
 /* Front page */
+.hero {
+    background: url("../../assets/images/hero-bread.jpg");
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h1 {
+        font-size: 90px;
+        text-transform: uppercase;
+        color: #fff;
+        text-shadow: 1px 2px 2px #808080;
+    }
+}
+
+.product-info {
+    margin: 40px 0;
+    border-bottom: 1px solid #e1e1e1;
+    .product-info-container {
+        width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        div {
+            display: flex;
+            flex-direction: column;
+            width: 100px;
+            flex-basis: 23%;
+            justify-content: center;
+            align-items: center;
+            h3 {
+                font-size: 20px;
+                text-transform: uppercase;
+                margin-bottom: 0;
+            }
+            p {
+                margin-bottom: 0;
+                a {
+                    text-decoration: none;
+                    color: #db272a;
+                    &:hover {
+                        color: #400c0d;
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+
+    .products-cta {
+        width: 1000px;
+        margin: 40px auto;
+        div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #fafafa;
+            border: 1px solid #e1e1e1;
+            border-radius: 5px;
+            padding: 15px 0;
+            p {
+                margin-right: 20px;
+            }
+            button {
+                padding: 15px 25px;
+                border-radius: 5px;
+                color: #fff;
+                font-size: 16px;
+                font-family: 'open_sans', sans-serif;
+                background-color: #400c0d;
+                box-shadow: none;
+                &:hover {
+                    text-decoration: underline;
+                    background-color: #6b1416;
+                }
+            }
+        }
+    }
+}
