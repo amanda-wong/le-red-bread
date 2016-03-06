@@ -35,7 +35,7 @@
 						</div>
 					</div>
 				</div><!-- .site-info -->
-				<span class="copyright">Copyright &copy; <?php echo date('Y'); ?> Le Red Bread</span>
+				<p class="copyright">Copyright &copy; <?php echo date('Y'); ?> Le Red Bread</p>
 			</footer><!-- #colophon -->
 		</div><!-- #page -->
 

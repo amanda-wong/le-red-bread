@@ -17,7 +17,7 @@
     height: auto;
     h3 {
         height: 10px;
-        font-family: 'overlock', sans-serif;
+
         text-transform: uppercase;
         color: grey;
         font-size: 20px;
@@ -50,9 +50,6 @@
     flex-basis: 33%;
     align-items: center;
     width: 280px;
-    // img {
-    //     padding: 0 50px;
-    // }
 }
 
 .business-hours {
@@ -60,14 +57,12 @@
     padding-left: 100px;
     h3{
         font-size: 20px;
-        font-family: 'overlock', sans-serif;
         color: grey;
         text-transform: uppercase;
     }
     p {
         color: #fff;
         line-height: 10px;
-        font-family: 'open_sans', sans-serif;
         font-weight: light;
     }
 }
@@ -79,5 +74,5 @@
     background-color: #333;
     color: #fff;
     font-size: 12.8px;
-    font-family: 'open_sans', sans-serif;
+    margin: 0;
 }
