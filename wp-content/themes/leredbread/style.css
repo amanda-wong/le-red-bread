@@ -927,7 +927,8 @@ object {
     text-shadow: 1px 2px 2px #808080; }
 
 .product-info {
-  margin: 40px 0; }
+  margin: 40px 0;
+  border-bottom: 1px solid #e1e1e1; }
   .product-info .product-info-container {
     width: 1000px;
     margin: 0 auto;
@@ -957,7 +958,6 @@ object {
       .product-info .product-info-container div h3 {
         font-size: 20px;
         text-transform: uppercase;
-        color: #400c0d;
         margin-bottom: 0; }
       .product-info .product-info-container div p {
         margin-bottom: 0; }
@@ -965,4 +965,35 @@ object {
           text-decoration: none;
           color: #db272a; }
           .product-info .product-info-container div p a:hover {
+            color: #400c0d;
             text-decoration: underline; }
+  .product-info .products-cta {
+    width: 1000px;
+    margin: 40px auto; }
+    .product-info .products-cta div {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      background-color: #fafafa;
+      border: 1px solid #e1e1e1;
+      border-radius: 5px;
+      padding: 15px 0; }
+      .product-info .products-cta div p {
+        margin-right: 20px; }
+      .product-info .products-cta div button {
+        padding: 15px 25px;
+        border-radius: 5px;
+        color: #fff;
+        font-size: 16px;
+        font-family: 'open_sans', sans-serif;
+        background-color: #400c0d;
+        box-shadow: none; }
+        .product-info .products-cta div button:hover {
+          text-decoration: underline;
+          background-color: #6b1416; }

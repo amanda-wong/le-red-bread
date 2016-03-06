@@ -43,12 +43,47 @@ get_header(); ?>
                         <p>Our sinfully delicious sweets are simply irresistible! These gourmet treats will keep you coming back. <a href="#">See More...</a></p>
                     </div>
                 </div>
+                <div class="products-cta">
+                    <div>
+                        <p>All our products are made fresh daily from locally-sourced ingredients. Our menu is updated frequently.</p>
+                        <button>See Our Products</button>
+                    </div>
+                </div>
             </section>
-            <div>
-                <p>All our products are made fresh daily from locally-sourced ingredients. Our menu is updated frequently.</p>
-                <button>See Our Products</button>
-            </div>
-
+            <section class="latest-news">
+                <h2>Our latest news</h2>
+                <hr>
+                <div class="news-items">
+                    <div>
+                        <div>
+                            <img src="" alt="">
+                        </div>
+                        <a href="http://localhost:3000/2016/03/06/get-tangled-up-with-a-hot-pretzel-fresh-from-the-oven/"><p>Get Tangled Up with a Hot Pretzel Fresh From the Oven</p></a>
+                        <p></p>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="" alt="">
+                        </div>
+                        <p></p>
+                        <p></p>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="" alt="">
+                        </div>
+                        <p></p>
+                        <p></p>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="" alt="">
+                        </div>
+                        <p></p>
+                        <p></p>
+                    </div>
+                </div>
+            </section>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
