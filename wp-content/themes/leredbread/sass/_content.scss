@@ -34,9 +34,20 @@
 
 .site-content {
 	display: flex;
+	width: 1000px;
+	margin: 0 auto;
 	.content-area {
-		padding: 30px 70px 30px 100px;
+		padding: 30px 70px 30px 0;
 		flex-basis: 70%;
+		a {
+			color: #db272a;
+			text-decoration: none;
+
+			&:hover {
+				color: #400c0d;
+				text-decoration: underline;
+			}
+		}
 	}
 	.widget-area{
 		border-left: 1px solid #d3d3d3;
@@ -44,6 +55,19 @@
 		padding-top: 30px;
 	}
 }
+
+/* Entry */
+.entry-title {
+	font-size: 28px;
+	margin-bottom: 5px;
+}
+
+.entry-meta {
+	font-family: 'open_sans', sans-serif;
+	color: #808080;
+}
+
+
 
 
 /* Asides */
