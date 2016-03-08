@@ -419,8 +419,7 @@ input[type="submit"] {
   font-size: 12px;
   font-size: 0.75rem;
   line-height: 1;
-  padding: .6em 1em .4em;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8); }
+  padding: .6em 1em .4em; }
   button:hover,
   input[type="button"]:hover,
   input[type="reset"]:hover,
@@ -879,11 +878,11 @@ a {
   margin: 0 0 1.5em; }
 
 .site-content {
+  width: 1000px;
+  margin: 0 auto;
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: flex;
-  width: 1000px;
-  margin: 0 auto; }
+  display: flex; }
   .site-content .content-area {
     padding: 30px 70px 30px 0;
     -webkit-flex-basis: 70%;
@@ -1018,9 +1017,6 @@ object {
         -ms-flex-pack: justify;
             justify-content: space-between; }
     .product-info .product-info-container div {
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display: flex;
       -webkit-flex-direction: column;
           -ms-flex-direction: column;
               flex-direction: column;
@@ -1033,7 +1029,13 @@ object {
               justify-content: center;
       -webkit-align-items: center;
           -ms-flex-align: center;
+                  -ms-grid-row-align: center;
               align-items: center; }
+      .product-info .product-info-container div .product-img-wrapper {
+        width: 80%;
+        height: 125px; }
+        .product-info .product-info-container div .product-img-wrapper img {
+          width: 100%; }
       .product-info .product-info-container div h3 {
         font-size: 20px;
         text-transform: uppercase;
@@ -1076,3 +1078,9 @@ object {
         .product-info .products-cta div button:hover {
           text-decoration: underline;
           background-color: #6b1416; }
+
+.page-header {
+  text-align: center; }
+  .page-header h1 {
+    text-transform: uppercase;
+    font-size: 35px; }
