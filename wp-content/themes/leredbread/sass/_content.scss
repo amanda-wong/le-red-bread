@@ -34,7 +34,7 @@
 
 .content-area {
 	display: flex;
-	width: 1000px;
+	width: 1024px;
 	margin: 0 auto;
 	.site-main {
 		padding: 30px 70px 30px 0;
@@ -56,7 +56,9 @@
 	}
 }
 
-/* Entry */
+/* Blog Archive and Entry */
+
+
 .entry-title {
 	font-size: 28px;
 	margin-bottom: 5px;
@@ -67,8 +69,19 @@
 	color: #808080;
 }
 
+.entry-content {
+	blockquote {
+		border-left: 7px solid #db272a;
+		padding-left: 20px;
+		margin: 0;
+		font-size: 19.2px;
+		color: rgb(161, 161, 161);
+	}
+}
 
-
+.read-more {
+	font-weight: bold;
+}
 
 /* Asides */
 
@@ -84,4 +97,43 @@
 }
 .bypostauthor {
 	display: block;
+}
+
+.comments-title {
+	font-size: 28px;
+	font-weight: bold;
+	color: grey;
+}
+.comment-list {
+	margin-left: 0;
+	padding-left: 0;
+	.comment-author-avatar {
+		margin-right: 25px;
+		img {
+			border-radius: 50%;
+		}
+	}
+}
+.comment-body {
+	display: flex;
+	border-bottom: 1px dashed #d2d2d2;
+	.comment-content {
+		.comment-meta {
+			.comment-author{
+				cite {
+					font-weight: bold;
+					font-style: normal;
+					font-family: 'open_sans', sans-serif;
+				}
+			}
+		}
+	}
+}
+
+.comment-metadata {
+	time {
+		font-family: 'open_sans', sans-serif;
+		color: grey;
+		font-weight: light;
+	}
 }

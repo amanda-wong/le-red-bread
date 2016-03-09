@@ -1,8 +1,6 @@
 <?php
 /**
- * The template for blog page.
- *
- * @package RED_Starter_Theme
+ * Template Name: Blog Page
  */
 
 get_header(); ?>
@@ -12,7 +10,7 @@ get_header(); ?>
 
 			<?php while ( have_posts() ) : the_post(); ?>
 
-				<?php get_template_part( 'template-parts/content', 'page' ); ?>
+				<?php get_template_part( 'template-parts/content' ); ?>
 
 			<?php endwhile; // End of the loop. ?>
 

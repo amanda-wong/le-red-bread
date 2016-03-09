@@ -556,7 +556,7 @@ a {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    width: 1000px;
+    width: 1024px;
     -webkit-justify-content: space-between;
         -ms-flex-pack: justify;
             justify-content: space-between; }
@@ -629,7 +629,7 @@ a {
 .social-container {
   padding: 30px 0;
   margin: 0 auto;
-  width: 1000px;
+  width: 1024px;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -668,7 +668,7 @@ a {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 1000px;
+  width: 1024px;
   margin: 0 auto; }
 
 .contact {
@@ -881,7 +881,7 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 1000px;
+  width: 1024px;
   margin: 0 auto; }
   .content-area .site-main {
     padding: 30px 70px 30px 0;
@@ -901,7 +901,7 @@ a {
             flex-basis: 30%;
     padding-top: 30px; }
 
-/* Entry */
+/* Blog Archive and Entry */
 .entry-title {
   font-size: 28px;
   margin-bottom: 5px; }
@@ -909,6 +909,16 @@ a {
 .entry-meta {
   font-family: 'open_sans', sans-serif;
   color: #808080; }
+
+.entry-content blockquote {
+  border-left: 7px solid #db272a;
+  padding-left: 20px;
+  margin: 0;
+  font-size: 19.2px;
+  color: #a1a1a1; }
+
+.read-more {
+  font-weight: bold; }
 
 /* Asides */
 .blog .format-aside .entry-title,
@@ -921,6 +931,34 @@ a {
 
 .bypostauthor {
   display: block; }
+
+.comments-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: grey; }
+
+.comment-list {
+  margin-left: 0;
+  padding-left: 0; }
+  .comment-list .comment-author-avatar {
+    margin-right: 25px; }
+    .comment-list .comment-author-avatar img {
+      border-radius: 50%; }
+
+.comment-body {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px dashed #d2d2d2; }
+  .comment-body .comment-content .comment-meta .comment-author cite {
+    font-weight: bold;
+    font-style: normal;
+    font-family: 'open_sans', sans-serif; }
+
+.comment-metadata time {
+  font-family: 'open_sans', sans-serif;
+  color: grey;
+  font-weight: light; }
 
 /*--------------------------------------------------------------
 # Media
@@ -1008,7 +1046,7 @@ object {
   margin: 40px 0;
   border-bottom: 1px solid #e1e1e1; }
   .product-info-container .product-info {
-    width: 1000px;
+    width: 1024px;
     margin: 0 auto;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -1049,7 +1087,7 @@ object {
             color: #400c0d;
             text-decoration: underline; }
   .product-info-container .products-cta {
-    width: 1000px;
+    width: 1024px;
     margin: 40px auto; }
     .product-info-container .products-cta div {
       display: -webkit-flex;
@@ -1084,3 +1122,5 @@ object {
   .page-header h1 {
     text-transform: uppercase;
     font-size: 35px; }
+
+/* About Page */
