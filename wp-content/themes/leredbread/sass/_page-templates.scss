@@ -4,96 +4,96 @@
 
 /* Front page */
 
-.hero {
-    background: url("../../assets/images/hero-bread.jpg");
-    height: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    h1 {
-        font-size: 90px;
-        text-transform: uppercase;
-        color: #fff;
-        text-shadow: 1px 2px 2px #808080;
-    }
-}
-
-.product-info {
-    margin: 40px 0;
-    border-bottom: 1px solid #e1e1e1;
-    .product-info-container {
-        width: 1000px;
-        margin: 0 auto;
+    .hero {
+        background: url("../../assets/images/hero-bread.jpg");
+        height: 500px;
         display: flex;
-        justify-content: space-between;
-        div {
-            flex-direction: column;
-            width: 100px;
-            flex-basis: 23%;
-            justify-content: center;
-            align-items: center;
-            .product-img-wrapper {
-                width: 80%;
-                height: 125px;
+        justify-content: center;
+        align-items: center;
+        h1 {
+            font-size: 90px;
+            text-transform: uppercase;
+            color: #fff;
+            text-shadow: 1px 2px 2px #808080;
+        }
+    }
 
-                img {
-                    width: 100%;
+    .product-info-container {
+        margin: 40px 0;
+        border-bottom: 1px solid #e1e1e1;
+        .product-info {
+            width: 1000px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            div {
+                flex-direction: column;
+                width: 100px;
+                flex-basis: 23%;
+                justify-content: center;
+                align-items: center;
+                .product-img-wrapper {
+                    width: 80%;
+                    height: 125px;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+                h3 {
+                    font-size: 20px;
+                    text-transform: uppercase;
+                    margin-bottom: 0;
+                }
+                p {
+                    margin-bottom: 0;
+                    a {
+                        text-decoration: none;
+                        color: #db272a;
+                        &:hover {
+                            color: #400c0d;
+                            text-decoration: underline;
+                        }
+                    }
                 }
             }
-            h3 {
-                font-size: 20px;
-                text-transform: uppercase;
-                margin-bottom: 0;
-            }
-            p {
-                margin-bottom: 0;
-                a {
-                    text-decoration: none;
-                    color: #db272a;
+        }
+
+        .products-cta {
+            width: 1000px;
+            margin: 40px auto;
+            div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #fafafa;
+                border: 1px solid #e1e1e1;
+                border-radius: 5px;
+                padding: 15px 0;
+                p {
+                    margin-right: 20px;
+                }
+                button {
+                    padding: 15px 25px;
+                    border-radius: 5px;
+                    color: #fff;
+                    font-size: 16px;
+                    font-family: 'open_sans', sans-serif;
+                    background-color: #400c0d;
+                    box-shadow: none;
                     &:hover {
-                        color: #400c0d;
                         text-decoration: underline;
+                        background-color: #6b1416;
                     }
                 }
             }
         }
     }
 
-    .products-cta {
-        width: 1000px;
-        margin: 40px auto;
-        div {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: #fafafa;
-            border: 1px solid #e1e1e1;
-            border-radius: 5px;
-            padding: 15px 0;
-            p {
-                margin-right: 20px;
-            }
-            button {
-                padding: 15px 25px;
-                border-radius: 5px;
-                color: #fff;
-                font-size: 16px;
-                font-family: 'open_sans', sans-serif;
-                background-color: #400c0d;
-                box-shadow: none;
-                &:hover {
-                    text-decoration: underline;
-                    background-color: #6b1416;
-                }
-            }
+    .page-header {
+        text-align: center;
+        h1 {
+            text-transform: uppercase;
+            font-size: 35px;
         }
     }
-}
-
-.page-header {
-    text-align: center;
-    h1 {
-        text-transform: uppercase;
-        font-size: 35px;
-    }
-}

@@ -6,42 +6,22 @@
  */
 
 get_header(); ?>
-<div id="content" class="site-content">
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+	<div id="primary-front" class="front-page-content">
+		<main id="main-font" class="front-page-main" role="main">
             <section class="hero">
                 <h1>Baked to perfection.</h1>
             </section>
-            <section class="product-info">
-                <div class="product-info-container">
-                    <div>
-                        <div class="product-img-wrapper">
-                            <img src="<?php bloginfo('template_directory'); ?>/assets/images/bread.png" alt="bread">
-                        </div>
-                        <h3>Bread</h3>
-                        <p>Bread is the ultimate comfort food! Our lust-worthy loaves will satisfy your most intense carb cravings. <a href="#">See More...</a></p>
-                    </div>
-                    <div>
-                        <div class="product-img-wrapper">
-                            <img src="<?php bloginfo('template_directory'); ?>/assets/images/coffee.png" alt="coffee">
-                        </div>
-                        <h3>Coffee</h3>
-                        <p>Start your day with decadent cup o' joe, or pop in for a mid-afternoon pick me up. Caffeine FTW. <a href="#">See More...</a></p>
-                    </div>
-                    <div>
-                        <div class="product-img-wrapper">
-                            <img src="<?php bloginfo('template_directory'); ?>/assets/images/pretzels.png" alt="pretzel">
-                        </div>
-                        <h3>Pretzel</h3>
-                        <p>Our soft-pretzels are available in a variety of flavours. When they taste this good, one is never enough! <a href="#">See More...</a></p>
-                    </div>
-                    <div>
-                        <div class="product-img-wrapper">
-                            <img src="<?php bloginfo('template_directory'); ?>/assets/images/sweets.png" alt="sweets">
-                        </div>
-                        <h3>Sweets</h3>
-                        <p>Our sinfully delicious sweets are simply irresistible! These gourmet treats will keep you coming back. <a href="#">See More...</a></p>
-                    </div>
+            <section class="product-info-container">
+                <div class="product-info">
+					<?php
+					 	$terms = get_terms('product-type');
+
+						echo '<pre>';
+						print_r($terms);
+						echo '</pre>';
+					?>
+
+
                 </div>
                 <div class="products-cta">
                     <div>
@@ -52,41 +32,11 @@ get_header(); ?>
             </section>
             <section class="latest-news">
                 <h2>Our latest news</h2>
-                <hr>
-                <div class="news-items">
-                    <div>
-                        <div>
-                            <img src="" alt="">
-                        </div>
-                        <a href="http://localhost:3000/2016/03/06/get-tangled-up-with-a-hot-pretzel-fresh-from-the-oven/"><p>Get Tangled Up with a Hot Pretzel Fresh From the Oven</p></a>
-                        <p></p>
-                    </div>
-                    <div>
-                        <div>
-                            <img src="" alt="">
-                        </div>
-                        <p></p>
-                        <p></p>
-                    </div>
-                    <div>
-                        <div>
-                            <img src="" alt="">
-                        </div>
-                        <p></p>
-                        <p></p>
-                    </div>
-                    <div>
-                        <div>
-                            <img src="" alt="">
-                        </div>
-                        <p></p>
-                        <p></p>
-                    </div>
-                </div>
-            </section>
 
+
+            </section>
 		</main><!-- #main -->
 	</div><!-- #primary -->
-</div><!-- #content -->
+
 
 <?php get_footer(); ?>
