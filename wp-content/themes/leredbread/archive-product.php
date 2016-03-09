@@ -1,8 +1,6 @@
 <?php
 /**
- * The template for displaying archive pages.
- *
- * @package RED_Starter_Theme
+ * Template Name: Product Archive Page
  */
 
 get_header(); ?>
@@ -21,7 +19,14 @@ get_header(); ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 
 				<!-- Create a product square --->
-
+			<div class="product-square-container">
+				<div class="product-square">
+					<?php if ( has_post_thumbnail() ) : ?>
+						<?php the_post_thumbnail( 'medium' ); ?>
+					<?php endif; ?>
+					<p class="product-type"><?php the_title() ?></p>
+				</div>
+			</div>	
 			<?php endwhile; ?>
 
 			<?php the_posts_navigation(); ?>

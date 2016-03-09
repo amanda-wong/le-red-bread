@@ -1124,3 +1124,11 @@ object {
     font-size: 35px; }
 
 /* About Page */
+/* Product Archive Page */
+.post-type-archive .content-area {
+  display: block; }
+  .post-type-archive .content-area .site-main {
+    padding: 0; }
+    .post-type-archive .content-area .site-main .product-square-container {
+      width: 1024px;
+      margin: 0 auto; }

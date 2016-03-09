@@ -98,3 +98,20 @@
         }
     }
 /* About Page */
+
+
+/* Product Archive Page */
+
+.post-type-archive {
+    .content-area {
+        display: block;
+        .site-main {
+            padding: 0;
+            .product-square-container {
+                // display: flex;
+                width: 1024px;
+                margin: 0 auto;
+            }
+        }
+    }
+}
