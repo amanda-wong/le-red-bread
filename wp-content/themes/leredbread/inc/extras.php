@@ -1,4 +1,4 @@
-<?php
+	<?php
 /**
  * Custom functions that act independently of the theme templates.
  *
@@ -39,17 +39,19 @@ add_filter( 'login_headerurl', 'lrb_url' );
 function lrb_modify_archive_loop( $query ) {
 	if ( is_post_type_archive( array('product') ) && !is_admin() && $query->is_main_query() ) {
 		$query->set( 'orderby', 'title' );
-		$query->set( 'orderby', 'ASC' );
+		$query->set( 'order', 'ASC' );
 		$query->set( 'posts_per_page', 12 );
 	}
 }
-add_action( 'pre_get_post', 'lrb_modify_archive_loop' );
+add_action( 'pre_get_posts', 'lrb_modify_archive_loop' );
 
 function lrb_archive_title() {
 	if ( is_post_type_archive( array('product') ) ) {
 		$title = 'Our Products are Made Fresh Daily';
 	} elseif ( is_tax( 'product-type' ) ) {
-		$title = '?????????';
+		global $wp_query;
+		$term = $wp_query->get_queried_object();
+		$title = $term->name;
 	}
 	return $title;
 }
