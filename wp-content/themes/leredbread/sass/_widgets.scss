@@ -68,3 +68,12 @@
 		}
 	}
 }
+
+/* Business Hours widget. */
+.business-hours-info {
+	margin: 5px 0;
+	.day-of-week {
+		font-weight: bold;
+		color: #db272a;
+	}
+}

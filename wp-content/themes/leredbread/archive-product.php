@@ -16,18 +16,25 @@ get_header(); ?>
 			</header><!-- .page-header -->
 
 			<?php /* Start the Loop */ ?>
+			<div class="product-container">
+
 			<?php while ( have_posts() ) : the_post(); ?>
 
 				<!-- Create a product square --->
-			<div class="product-square-container">
-				<div class="product-square">
-					<?php if ( has_post_thumbnail() ) : ?>
-						<?php the_post_thumbnail( 'medium' ); ?>
-					<?php endif; ?>
-					<p class="product-type"><?php the_title() ?></p>
-				</div>
-			</div>	
+				<div class="product-square-wrap">
+					<div class="product-square">
+						<?php if ( has_post_thumbnail() ) : ?>
+							<?php the_post_thumbnail( 'medium' ); ?>
+						<?php endif; ?>
+					</div>
+
+						<div class="product-type-price">
+							<span><?php the_title() ?></span>
+							<span><?php echo CFS()->get( 'price' ); ?></span>
+					</div>
+			</div>
 			<?php endwhile; ?>
+		</div> <!-- end product-container -->
 
 			<?php the_posts_navigation(); ?>
 
