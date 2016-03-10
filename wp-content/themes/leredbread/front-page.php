@@ -33,7 +33,7 @@ get_header(); ?>
 					 <?php endforeach; ?>
 					 <?php endif; ?>
                 </div>
-                <div class="products-cta">
+                <div class="front-page-cta">
                     <div>
                         <p>All our products are made fresh daily from locally-sourced ingredients. Our menu is updated frequently.</p>
                         <a href="#"><button>See Our Products</button></a>
@@ -43,7 +43,7 @@ get_header(); ?>
             <section class="latest-news">
                 <h2>Our latest news</h2>
 
-				
+
 
 
             </section>

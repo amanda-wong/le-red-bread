@@ -14,7 +14,22 @@ get_header(); ?>
 				<h1>Our products are made fresh daily</h1>
 				<p>We are a team of creative and talented individuals who love making delicious treats.</p>
 			</header><!-- .page-header -->
-
+			<hr />
+			<section class="product-categories">
+				<?php $terms = get_terms( 'product-type'); ?>
+				<?php if (! empty($terms) ) : ?>
+				<?php foreach ($terms as $term) : ?>
+				<div>
+					<div class="product-img-wrapper small">
+					   <img src="<?php echo get_template_directory_uri()."/assets/images/\/" . $term->slug; ?>.png" alt="Product Types" />
+					</div>
+					<h3>
+						<a href='<?php echo get_term_link( $term ); ?>'><?php echo $term->name; ?></a>
+					</h3>
+				</div>
+				 <?php endforeach; ?>
+				 <?php endif; ?>
+			</section>
 			<?php /* Start the Loop */ ?>
 			<div class="product-container">
 
@@ -27,14 +42,13 @@ get_header(); ?>
 							<?php the_post_thumbnail( 'medium' ); ?>
 						<?php endif; ?>
 					</div>
-
-						<div class="product-type-price">
-							<span><?php the_title() ?></span>
-							<span><?php echo CFS()->get( 'price' ); ?></span>
+					<div class="product-type-price">
+						<span><?php the_title() ?></span>
+						<span><?php echo CFS()->get( 'price' ); ?></span>
 					</div>
 			</div>
 			<?php endwhile; ?>
-		</div> <!-- end product-container -->
+			</div> <!-- end product-container -->
 
 			<?php the_posts_navigation(); ?>
 
