@@ -10,3 +10,24 @@
 	margin-left: auto;
 	margin-right: auto;
 }
+
+@mixin cta-button {
+	border-radius: 5px;
+	background-color: #400c0d;
+	box-shadow: none;
+	padding: 15px 25px;
+	font-family: 'open_sans', sans-serif;
+	color: #fff;
+	font-size: 16px;
+}
+
+@mixin cta-button-hover {
+	text-decoration: underline;
+	background-color: #6b1416;
+}
+
+@mixin heading2 {
+	font-size: 30px;
+	text-transform: uppercase;
+	text-align: center;
+}

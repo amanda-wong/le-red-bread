@@ -42,11 +42,37 @@ get_header(); ?>
             </section>
             <section class="latest-news">
                 <h2>Our latest news</h2>
-
-
-
-
+				<hr />
+				<?php
+					$args = array( 'post_type' => 'post', 'numberposts' => 4 );
+					$latest_posts = get_posts( $args );
+				?>
+				<div class="latest-post-cube-container">
+							<?php foreach( $latest_posts as $post ) : setup_postdata( $post ); ?>
+							<?php if ( has_post_thumbnail() ) : ?>
+					<div class="latest-post-cube">
+						<div class="latest-post-img">
+							<?php the_post_thumbnail('large'); ?>
+						</div>
+							<?php endif; ?>
+						<div class="entry-meta-container">
+							<p>
+								<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+							</p>
+							<span class="entry_meta">
+								<?php red_starter_posted_on(); ?> / <?php comments_number( '0 Comments', '1 Comment', '% Comments' ); ?>
+							</span>
+						</div>
+					</div>
+							<?php endforeach; wp_reset_postdata(); ?>
+				</div>
             </section>
+			<section class="testimonials">
+				<h2>What others say about us</h2>
+				<hr />
+				
+
+			</section>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 

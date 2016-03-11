@@ -7,8 +7,8 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-			<header class="page-header">
-				<h1>Learn about our team and culture</h1>
+			<header class="about-page-header">
+				<h2>Learn about our team and culture</h2>
 				<p><?php echo CFS()->get( 'tagline' ); ?></p>
 			</header>
 			<hr/>

@@ -10,8 +10,8 @@ get_header(); ?>
 
 		<?php if ( have_posts() ) : ?>
 
-			<header class="page-header">
-				<h1>Our products are made fresh daily</h1>
+			<header class="product-page-header">	
+				<h2>Our products are made fresh daily</h2>
 				<p>We are a team of creative and talented individuals who love making delicious treats.</p>
 			</header><!-- .page-header -->
 			<hr />
@@ -37,11 +37,13 @@ get_header(); ?>
 
 				<!-- Create a product square --->
 				<div class="product-square-wrap">
-					<div class="product-square">
+
 						<?php if ( has_post_thumbnail() ) : ?>
-							<?php the_post_thumbnail( 'medium' ); ?>
+						<div class="product-square">
+						<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail( 'medium' ); ?></a>
+						</div>
 						<?php endif; ?>
-					</div>
+
 					<div class="product-type-price">
 						<span><?php the_title() ?></span>
 						<span><?php echo CFS()->get( 'price' ); ?></span>

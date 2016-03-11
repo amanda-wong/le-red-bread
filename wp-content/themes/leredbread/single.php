@@ -10,11 +10,9 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 			<div class="blog-content">
-
 				<?php while ( have_posts() ) : the_post(); ?>
 
 					<?php get_template_part( 'template-parts/content', 'single' ); ?>
-
 					<?php the_post_navigation(); ?>
 
 					<?php
@@ -23,12 +21,10 @@ get_header(); ?>
 							comments_template();
 						endif;
 					?>
-
 				<?php endwhile; // End of the loop. ?>
 			</div>
-			<?php get_sidebar(); ?>
 		</main><!-- #main -->
-
+		<?php get_sidebar(); ?>
 	</div><!-- #primary -->
 
 
