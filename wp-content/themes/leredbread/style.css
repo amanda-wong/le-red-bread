@@ -355,11 +355,16 @@ body {
   /* Fallback for when there is no custom background color defined. */
   font-size: 16px;
   color: #222222;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  outline: none; }
   body h1, body h2, body h3, body h4, body h5, body h6 {
     font-family: 'overlock', sans-serif; }
   body p {
     font-family: 'open_sans', sans-serif; }
+  body a {
+    text-decoration: none; }
+    body a:visited {
+      text-decoration: none; }
 
 blockquote, q {
   quotes: "" ""; }
@@ -496,11 +501,11 @@ textarea {
 --------------------------------------------------------------*/
 /* Links */
 a {
-  color: royalblue; }
+  color: #db272a; }
   a:visited {
-    color: purple; }
-  a:hover, a:focus, a:active {
     color: #db272a; }
+  a:hover, a:focus, a:active {
+    color: #400c0d; }
   a:focus {
     outline: thin dotted; }
   a:hover, a:active {
@@ -936,6 +941,12 @@ a {
 .entry-title {
   font-size: 28px;
   margin-bottom: 5px; }
+  .entry-title a {
+    color: #db272a;
+    text-decoration: none; }
+    .entry-title a:hover {
+      color: #400c0d;
+      text-decoration: underline; }
 
 .entry-meta {
   font-family: 'open_sans', sans-serif;
@@ -975,14 +986,20 @@ a {
 .comments-title {
   font-size: 28px;
   font-weight: bold;
-  color: grey; }
+  color: grey;
+  margin-bottom: 0; }
 
 .comment-list {
   margin-left: 0;
   padding-left: 0; }
+  .comment-list li {
+    margin-top: 24px; }
   .comment-list .comment-author-avatar {
-    margin-right: 25px; }
+    margin-right: 25px;
+    width: 50px;
+    height: 50px; }
     .comment-list .comment-author-avatar img {
+      width: 100%;
       border-radius: 50%; }
 
 .comment-body {
@@ -990,15 +1007,27 @@ a {
   display: -ms-flexbox;
   display: flex;
   border-bottom: 1px dashed #d2d2d2; }
-  .comment-body .comment-content .comment-meta .comment-author cite {
-    font-weight: bold;
-    font-style: normal;
-    font-family: 'open_sans', sans-serif; }
+  .comment-body .comment-content {
+    max-width: 85%; }
+    .comment-body .comment-content p {
+      white-space: wrap; }
+    .comment-body .comment-content .comment-meta .comment-author cite {
+      font-weight: bold;
+      font-style: normal;
+      font-family: 'open_sans', sans-serif; }
 
 .comment-metadata time {
   font-family: 'open_sans', sans-serif;
   color: grey;
   font-weight: light; }
+
+.comment-reply-title {
+  font-size: 25px;
+  color: #400c0d; }
+
+.comment-form label {
+  font-weight: bold;
+  color: #808080; }
 
 /* Search */
 /*--------------------------------------------------------------
@@ -1109,11 +1138,12 @@ object {
         margin: 0 auto; }
         .product-info-container .product-info div .product-img-wrapper img {
           width: 100%; }
-      .product-info-container .product-info div h2 {
+      .product-info-container .product-info div h3 {
         font-size: 20px;
         text-transform: uppercase;
         margin-bottom: 0;
-        text-align: center; }
+        text-align: center;
+        color: #400c0d; }
       .product-info-container .product-info div p {
         margin-bottom: 0; }
         .product-info-container .product-info div p a {
@@ -1242,7 +1272,8 @@ object {
       -webkit-flex-basis: 47%;
           -ms-flex-preferred-size: 47%;
               flex-basis: 47%; }
-      .about-info-container .about-two-columns div h2 {
+      .about-info-container .about-two-columns div h3 {
+        font-size: 25px;
         color: #400c0d;
         margin: 0; }
       .about-info-container .about-two-columns div p:nth-child(3) {
@@ -1359,3 +1390,5 @@ hr {
         margin-left: 15px; }
       .product-container .product-square-wrap .product-type-price span:last-child {
         margin-right: 15px; }
+
+/* Product Single */

@@ -36,7 +36,7 @@ get_header(); ?>
                 <div class="front-page-cta">
                     <div>
                         <p>All our products are made fresh daily from locally-sourced ingredients. Our menu is updated frequently.</p>
-                        <a href="#"><button>See Our Products</button></a>
+                        <a href="/products"><button>See Our Products</button></a>
                     </div>
                 </div>
             </section>
@@ -70,7 +70,7 @@ get_header(); ?>
 			<section class="testimonials">
 				<h2>What others say about us</h2>
 				<hr />
-				
+
 
 			</section>
 		</main><!-- #main -->

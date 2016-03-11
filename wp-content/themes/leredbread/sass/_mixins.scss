@@ -31,3 +31,18 @@
 	text-transform: uppercase;
 	text-align: center;
 }
+
+@mixin heading3 {
+	font-size: 25px;
+	color: #400c0d;
+}
+
+@mixin single-header-link {
+	color: #db272a;
+	text-decoration: none;
+}
+
+@mixin single-header-link-hover {
+	color: #400c0d;
+	text-decoration: underline;
+}

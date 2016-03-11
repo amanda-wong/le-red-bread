@@ -16,13 +16,13 @@ get_header(); ?>
 				<div class="about-two-columns">
 					<div>
 						<img src="<?php bloginfo( 'template_directory' ); ?>/assets/images/team.jpg" class="team-photo" alt="team">
-						<h2>Le Red Bread Team</h2>
+						<h3>Le Red Bread Team</h3>
 						<p>Baking up a storm every day.</p>
 						<p><?php echo CFS()->get( 'team_copy' ); ?></p>
 					</div>
 					<div>
 						<img src="<?php bloginfo( 'template_directory' ); ?>/assets/images/bakery.jpg" class="bakery-photo" alt="bakery">
-						<h2>Le Red Bread Bakery</h2>
+						<h3>Le Red Bread Bakery</h3>
 						<p>A home away from home.</p>
 						<p><?php echo CFS()->get( 'bakery_copy' ); ?></p>
 					</div>
@@ -35,7 +35,7 @@ get_header(); ?>
 			<div class="about-page-cta">
 				<div>
 					<p>Feel free to contact us with any questions coments or suggestions. We even take custom orders!</p>
-					<a href="#"><button>Contact Us</button></a>
+					<a href="/contact"><button>Contact Us</button></a>
 				</div>
 			</div>
 		</main><!-- #main -->

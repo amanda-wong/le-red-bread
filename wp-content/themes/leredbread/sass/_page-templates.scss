@@ -38,11 +38,12 @@
                         width: 100%;
                     }
                 }
-                h2 {
+                h3 {
                     font-size: 20px;
                     text-transform: uppercase;
                     margin-bottom: 0;
                     text-align: center;
+                    color: #400c0d;
                 }
                 p {
                     margin-bottom: 0;
@@ -139,7 +140,6 @@
             &:hover {
                  color: #db272a;
                  text-decoration: underline;
-
             }
         }
     }
@@ -181,8 +181,8 @@
         justify-content: space-between;
         div {
             flex-basis: 47%;
-            h2 {
-                color: #400c0d;
+            h3 {
+                @include heading3;
                 margin: 0;
             }
             p:nth-child(3) {
@@ -301,4 +301,10 @@ hr {
             }
         }
     }
+}
+
+/* Product Single */
+
+.tax-product-type {
+
 }
