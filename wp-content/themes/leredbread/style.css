@@ -1392,3 +1392,6 @@ hr {
         margin-right: 15px; }
 
 /* Product Single */
+.tax-product-type .product-type-page-header h1 {
+  text-transform: uppercase;
+  margin-bottom: 0; }
