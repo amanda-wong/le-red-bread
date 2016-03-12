@@ -359,6 +359,13 @@ body {
   outline: none; }
   body h1, body h2, body h3, body h4, body h5, body h6 {
     font-family: 'overlock', sans-serif; }
+  body h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center; }
+  body h3 {
+    font-size: 25px;
+    color: #400c0d; }
   body p {
     font-family: 'open_sans', sans-serif; }
   body a {
@@ -372,10 +379,11 @@ blockquote, q {
     content: ""; }
 
 hr {
+  width: 300px;
   background-color: #ccc;
   border: 0;
   height: 1px;
-  margin-bottom: 1.5em; }
+  margin: 30px auto; }
 
 ul, ol {
   margin: 0 0 1.5em 3em; }
@@ -415,22 +423,21 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-  border: 1px solid;
-  border-color: #ccc #ccc #bbb;
-  border-radius: 3px;
-  background: #e6e6e6;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
-  color: rgba(0, 0, 0, 0.8);
-  font-size: 12px;
-  font-size: 0.75rem;
-  line-height: 1;
-  padding: .6em 1em .4em; }
+  border-radius: 5px;
+  background-color: #400c0d;
+  box-shadow: none;
+  padding: 10px 20px;
+  font-family: 'open_sans', sans-serif;
+  color: #fff;
+  font-size: 16px;
+  border: none; }
   button:hover,
   input[type="button"]:hover,
   input[type="reset"]:hover,
   input[type="submit"]:hover {
-    border-color: #ccc #bbb #aaa;
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), inset 0 15px 17px rgba(255, 255, 255, 0.8), inset 0 -5px 12px rgba(0, 0, 0, 0.02); }
+    text-decoration: underline;
+    background-color: #6b1416;
+    cursor: pointer; }
   button:active, button:focus,
   input[type="button"]:active,
   input[type="button"]:focus,
@@ -438,8 +445,7 @@ input[type="submit"] {
   input[type="reset"]:focus,
   input[type="submit"]:active,
   input[type="submit"]:focus {
-    border-color: #aaa #bbb #bbb;
-    box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.5), inset 0 2px 5px rgba(0, 0, 0, 0.15); }
+    outline: none; }
 
 /* Fields */
 input[type="text"],
@@ -448,9 +454,11 @@ input[type="url"],
 input[type="password"],
 input[type="search"],
 textarea {
+  margin-top: 5px;
   color: #666;
-  border: 1px solid #ccc;
-  border-radius: 3px; }
+  border: 1px solid #e1e1e1;
+  border-radius: 5px;
+  background-color: #fafafa; }
   input[type="text"]:focus,
   input[type="email"]:focus,
   input[type="url"]:focus,
@@ -904,7 +912,7 @@ a {
     -webkit-flex-basis: 70%;
         -ms-flex-preferred-size: 70%;
             flex-basis: 70%;
-    padding: 30px 70px 30px 0; }
+    padding: 50px 70px 30px 0; }
   .tax-product-type .content-area .widget-area, .single-product .content-area .widget-area, .page .content-area .widget-area, .search-results .content-area .widget-area,
   .error404 .content-area .widget-area, .single-post .content-area .widget-area {
     border-left: 1px solid #d3d3d3;
@@ -924,7 +932,7 @@ a {
     -webkit-flex-basis: 70%;
         -ms-flex-preferred-size: 70%;
             flex-basis: 70%;
-    padding: 30px 70px 30px 0; }
+    padding: 50px 70px 30px 0; }
     .blog .content-area .site-main .blog-content a {
       color: #db272a;
       text-decoration: none; }
@@ -961,15 +969,6 @@ a {
 
 .read-more {
   font-weight: bold; }
-
-.single-post .content-area {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex; }
-  .single-post .content-area .widget-area {
-    -webkit-flex-basis: 30%;
-        -ms-flex-preferred-size: 30%;
-            flex-basis: 30%; }
 
 /* Asides */
 .blog .format-aside .entry-title,
@@ -1113,7 +1112,7 @@ object {
     text-shadow: 1px 2px 2px #808080; }
 
 .product-info-container {
-  padding: 40px 0;
+  padding-top: 40px;
   border-bottom: 1px solid #e1e1e1; }
   .product-info-container .product-info {
     width: 1024px;
@@ -1171,32 +1170,12 @@ object {
       padding: 15px 0; }
       .product-info-container .front-page-cta div p {
         margin-right: 20px; }
-      .product-info-container .front-page-cta div a button {
-        border-radius: 5px;
-        background-color: #400c0d;
-        box-shadow: none;
-        padding: 15px 25px;
-        font-family: 'open_sans', sans-serif;
-        color: #fff;
-        font-size: 16px; }
-        .product-info-container .front-page-cta div a button:hover {
-          text-decoration: underline;
-          background-color: #6b1416; }
-
-.page-header {
-  text-align: center; }
-  .page-header h1 {
-    text-transform: uppercase;
-    font-size: 35px; }
 
 .latest-news {
   padding: 40px 0;
   background-color: #fafafa;
   border-bottom: 1px solid #e1e1e1; }
   .latest-news h2 {
-    font-size: 30px;
-    text-transform: uppercase;
-    text-align: center;
     margin: 0; }
 
 .latest-post-cube-container {
@@ -1243,20 +1222,12 @@ object {
 .testimonials {
   padding: 40px 0; }
   .testimonials h2 {
-    font-size: 30px;
-    text-transform: uppercase;
-    text-align: center;
     margin: 0; }
 
 /* About Page */
 .page-template-about .site-main {
   width: 1024px;
   margin: 40px auto; }
-
-.about-page-header h2 {
-  font-size: 30px;
-  text-transform: uppercase;
-  text-align: center; }
 
 .about-info-container {
   width: 1024px;
@@ -1273,18 +1244,12 @@ object {
           -ms-flex-preferred-size: 47%;
               flex-basis: 47%; }
       .about-info-container .about-two-columns div h3 {
-        font-size: 25px;
-        color: #400c0d;
         margin: 0; }
       .about-info-container .about-two-columns div p:nth-child(3) {
         color: #a1a1a1;
         margin-top: 0; }
   .about-info-container .our-story-container {
     margin-bottom: 60px; }
-    .about-info-container .our-story-container h2 {
-      font-size: 30px;
-      text-transform: uppercase;
-      text-align: center; }
 
 .about-page-cta {
   width: 1024px;
@@ -1305,32 +1270,13 @@ object {
     padding: 15px 0; }
     .about-page-cta div p {
       margin-right: 20px; }
-    .about-page-cta div a button {
-      border-radius: 5px;
-      background-color: #400c0d;
-      box-shadow: none;
-      padding: 15px 25px;
-      font-family: 'open_sans', sans-serif;
-      color: #fff;
-      font-size: 16px; }
-      .about-page-cta div a button:hover {
-        text-decoration: underline;
-        background-color: #6b1416; }
 
 /* Product Archive Page */
 .product-page-header {
   width: 1024px;
   margin: 0 auto; }
-  .product-page-header h2 {
-    font-size: 30px;
-    text-transform: uppercase;
-    text-align: center; }
   .product-page-header p {
     text-align: center; }
-
-hr {
-  width: 300px;
-  margin: 42px auto; }
 
 .product-categories {
   width: 1024px;

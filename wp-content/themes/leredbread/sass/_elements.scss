@@ -22,6 +22,15 @@ body {
 	h1, h2, h3, h4, h5, h6 {
 		font-family: 'overlock', sans-serif;
 	}
+	h2 {
+		font-size: 30px;
+		text-transform: uppercase;
+		text-align: center;
+	}
+	h3 {
+		font-size: 25px;
+		color: #400c0d;
+	}
 	p {
 		font-family: 'open_sans', sans-serif;
 	}
@@ -43,10 +52,11 @@ blockquote, q {
 }
 
 hr {
+	width: 300px;
 	background-color: $color__background-hr;
 	border: 0;
 	height: 1px;
-	margin-bottom: $base__space-unit;
+	margin: 30px auto;
 }
 
 ul, ol {
