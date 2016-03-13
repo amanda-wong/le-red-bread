@@ -145,7 +145,15 @@
     width: $fixed-width;
     display: flex;
     flex-wrap: wrap;
+    margin: 0 auto;
+    .individual-testimonials:nth-child(odd) {
+        border-right: $border__dashed;
+    }
+    .individual-testimonials:nth-child(-n+2) {
+        border-bottom: $border__dashed;
+    }
     .individual-testimonials {
+        padding: 25px;
         flex-basis: 50%;
         display: flex;
         img {
@@ -310,7 +318,7 @@
     }
     h3 {
         color: #000;
-        margin-bottom: 0;
+        margin: 10px 0 0 0;
     }
     .entry-content {
         margin-top: 0;

@@ -38,9 +38,13 @@ body {
 		text-decoration: none;
 		&:visited {
 			text-decoration: none;
+			color: $color__link-visited;
 		}
 		&:hover {
 			cursor: pointer;
+		}
+		&:active, &:focus {
+			outline: none;
 		}
 	}
 }

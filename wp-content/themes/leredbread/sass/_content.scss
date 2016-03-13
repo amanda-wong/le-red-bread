@@ -50,6 +50,21 @@
 	}
 }
 
+.page .site-main{
+	.entry-content {
+		margin-top: 0;
+		h2 {
+			text-align: left;
+			color: #000;
+			margin-top: 0;
+		}
+		.grey-heading {
+			text-transform: none;
+			color: $color__mediumgrey-brand;
+		}
+	}
+}
+
 /* Blog Archive and Entry */
 
 .blog .content-area  {
@@ -124,6 +139,7 @@
 }
 
 .comments-title {
+	text-align: left;
 	font-size: 28px;
 	font-weight: bold;
 	color: $color__mediumgrey-brand;

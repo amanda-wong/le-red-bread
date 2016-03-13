@@ -9,12 +9,11 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
-
+        <?php the_title( '<h2 class="entry-title">', '</h2>' ); ?>
 		<?php if ( has_post_thumbnail() ) : ?>
 			<?php the_post_thumbnail( 'large' ); ?>
 		<?php endif; ?>
-
-		<?php the_title( '<h2 class="entry-title">', '</h2>' ); ?>
+        <h3>Price <?php echo CFS()->get( 'price' ); ?></h3>
 
 	</header><!-- .entry-header -->
 

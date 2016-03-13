@@ -9,10 +9,10 @@ input[type="button"],
 input[type="reset"],
 input[type="submit"] {
 	border-radius: 5px;
-	background-color: #400c0d;
+	background-color: $color__brown-brand;
 	box-shadow: none;
-	padding: 10px 20px;
-	font-family: 'open_sans', sans-serif;
+	padding: 8px 18px;
+	font-family: $font__main;
 	color: #fff;
 	font-size: 16px;
 	border: none;
@@ -36,20 +36,12 @@ input[type="search"],
 textarea {
 	margin-top: 5px;
 	color: #666;
-	border: 1px solid #e1e1e1;
-	border-radius: 5px;
-	background-color: #fafafa;
+	border: $border__solid;
+	border-radius: 3px;
+	background-color: $color__background-secondary;
 	&:focus {
 		color: #111;
 	}
-}
-
-input[type="text"],
-input[type="email"],
-input[type="url"],
-input[type="password"],
-input[type="search"] {
-	padding: 3px;
 }
 
 textarea {
@@ -69,12 +61,12 @@ textarea {
 			width: 175px;
 		}
 		.fa.fa-search {
-			color: #808080;
+			color: $color__mediumgrey-brand;
 		}
 	}
 	input {
 		border: none;
-		font-family: 'open_sans', sans-serif;
+		font-family: $font__main;
 		font-weight: 100;
 		font-style: normal;
 		&:focus {
@@ -89,4 +81,44 @@ textarea {
 	border: none;
 	font-size: 15px;
 	padding: 5px;
+}
+
+.contact-form-wrap {
+	input[type="text"],
+	input[type="email"],
+	input[type="url"],
+	textarea {
+		margin-top: 5px;
+		color: #666;
+		border: $border__solid;
+		border-radius: 3px;
+		background-color: $color__background-secondary;
+		&:focus {
+			color: #111;
+		}
+	}
+	input[type="text"],
+	input[type="email"],
+	input[type="url"] {
+		height: 40px;
+	}
+	label {
+		font-weight: bold;
+		color: $color__mediumgrey-brand;
+		span {
+			color: $color__red-brand;
+		}
+	}
+}
+
+.contact-form-wrap {
+	.name-email-wrap {
+		display: flex;
+		input[type="text"] {
+			flex-basis: 45%;
+		}
+		input[type="email"] {
+			flex-basis: 45%;
+		}
+	}
 }
