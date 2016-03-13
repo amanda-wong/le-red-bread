@@ -70,46 +70,54 @@ get_header(); ?>
 			<section class="testimonials">
 				<h2>What others say about us</h2>
 				<hr />
-				<div class="testimonials-container">
+				<div class="testimony-container">
 					<div class="individual-testimonials">
 						<img src="<?php bloginfo('template_directory'); ?>/assets/images/dr-dosist-headshot.png" alt="Dr. Dosist">
-						<p>
-							Healthy food be damned! If you are a bakery and sweet addict like myself this place is life changing. So many goodies. Have a cheat day and eat all the pretzels!
-						</p>
-						<p>
-							<span>Dr. Dosist</span><br />
-							Nutritionist – <a href="http://www.redacademy.com/" target="_blank">Health Time Clinic</a>
-						</p>
+						<div>
+							<p>
+								Healthy food be damned! If you are a bakery and sweet addict like myself this place is life changing. So many goodies. Have a cheat day and eat all the pretzels!
+							</p>
+							<p>
+								<span>Dr. Dosist</span><br />
+								Nutritionist – <a href="http://www.redacademy.com/" target="_blank">Health Time Clinic</a>
+							</p>
+						</div>
 					</div>
 					<div class="individual-testimonials">
 						<img src="<?php bloginfo('template_directory'); ?>/assets/images/maxi-milli-headshot.png" alt="Chef Maxi Milli">
-						<p>
-							Do you like bread? Seriously, who doesn’t? You have to check Le Red Bread’s lovely loaves. Fresh flavours every day…need I say more?
-						</p>
-						<p>
-							<span>Maxi Milli</span><br />
-							Chef – <a href="http://www.redacademy.com/" target="_blank">Sailor Spoon</a>
-						</p>
+						<div>
+							<p>
+								Do you like bread? Seriously, who doesn’t? You have to check Le Red Bread’s lovely loaves. Fresh flavours every day…need I say more?
+							</p>
+							<p>
+								<span>Maxi Milli</span><br />
+								Chef – <a href="http://www.redacademy.com/" target="_blank">Sailor Spoon</a>
+							</p>
+						</div>
 					</div>
 					<div class="individual-testimonials">
 						<img src="<?php bloginfo('template_directory'); ?>/assets/images/ana-vandana-headshot.png" alt="Author Anna Vandana">
-						<p>
-							Excellent cookies! They always have unique flavours and the cookies are always super fresh. Make sure you get them before they sell out! And keep an eye out on holidays, the flavour combinations they come up with are brilliant. Delicious!
-						</p>
-						<p>
-							<span>Anna Vandana</span><br />
-							Author – <a href="http://www.redacademy.com/" target="_blank">Food Is Great Magazine</a>
-						</p>
+						<div>
+							<p>
+								Excellent cookies! They always have unique flavours and the cookies are always super fresh. Make sure you get them before they sell out! And keep an eye out on holidays, the flavour combinations they come up with are brilliant. Delicious!
+							</p>
+							<p>
+								<span>Anna Vandana</span><br />
+								Author – <a href="http://www.redacademy.com/" target="_blank">Food Is Great Magazine</a>
+							</p>
+						</div>
 					</div>
 					<div class="individual-testimonials">
 						<img src="<?php bloginfo('template_directory'); ?>/assets/images/martha-m-masters-headshot.png" alt="Food Critic Martha M. Masters">
-						<p>
-							Where has this bakery been all my life! I absolutely love their cookies and muffins. Nom nom.
-						</p>
-						<p>
-							<span>Martha M. Masters</span><br />
-							Food Critic – <a href="http://www.redacademy.com/" target="_blank">WikiTravel</a>
-						</p>
+						<div>
+							<p>
+								Where has this bakery been all my life! I absolutely love their cookies and muffins. Nom nom.
+							</p>
+							<p>
+								<span>Martha M. Masters</span><br />
+								Food Critic – <a href="http://www.redacademy.com/" target="_blank">WikiTravel</a>
+							</p>
+						</div>
 					</div>
 				</div>
 			</section>

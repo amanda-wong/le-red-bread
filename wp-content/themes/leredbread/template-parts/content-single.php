@@ -9,15 +9,13 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
+		<?php the_title( '<h2 class="entry-title">', '</h2>' ); ?>
+
 		<?php if ( has_post_thumbnail() ) : ?>
 			<?php the_post_thumbnail( 'large' ); ?>
 		<?php endif; ?>
 
-		<?php the_title( '<h2 class="entry-title">', '</h2>' ); ?>
-
-		<div class="entry-meta">
-			<?php red_starter_posted_on(); ?> / <?php red_starter_comment_count(); ?> / <?php red_starter_posted_by(); ?>
-		</div><!-- .entry-meta -->
+		<h3>Price: <?php echo CFS()->get( 'price' ); ?></h3>
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
