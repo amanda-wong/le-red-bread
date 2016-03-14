@@ -1,61 +1,60 @@
 .site-footer {
 
-.site-info {
-    padding: 30px;
-    justify-content: space-between;
-    background-color: #222;
-    display: flex;
-}
-
-.site-info-inner {
-    display: flex;
-    justify-content: space-between;
-    width: $fixed-width;
-    margin: 0 auto;
-}
-
-.contact {
-    flex-basis:33%;
-    height: auto;
-    h3 {
-        height: 10px;
-        text-transform: uppercase;
-        color: grey;
-        font-size: 20px;
-    }
-    p {
-    display: inline-block;
+    .site-info {
+        padding: 30px;
+        justify-content: space-between;
+        background-color: #222;
+        display: flex;
     }
 
-    a {
-        color: #fff;
-        font-family: $font__main;
-        font-weight: lighter;
-        &:hover {
-            color: #fff;
-            text-decoration-color: #fff;
-            text-decoration: underline;
+    .site-info-inner {
+        display: flex;
+        justify-content: space-between;
+        width: $fixed-width;
+        margin: 0 auto;
+    }
+
+    .contact {
+        flex-basis:33%;
+        height: auto;
+        h3 {
+            height: 10px;
+            text-transform: uppercase;
+            color: grey;
+            font-size: 20px;
         }
-    }
-    div:nth-child(2), div:nth-child(3) {
-     height: 35px;
-    }
-    div:nth-child(4) {
-        padding-top: 20px;
-    }
-    .fa.fa-envelope, .fa.fa-phone, .fa.fa-facebook-square,
-    .fa.fa-twitter-square, .fa.fa-google-plus-square {
-        font-size: 22px;
-        color: #fff;
-        padding-right: 10px;
-    }
+        p {
+        display: inline-block;
+        }
+
+        a {
+            color: #fff;
+            font-family: $font__main;
+            font-weight: lighter;
+            &:hover {
+                color: #fff;
+                text-decoration-color: #fff;
+                text-decoration: underline;
+            }
+        }
+        div:nth-child(2), div:nth-child(3) {
+         height: 35px;
+        }
+        div:nth-child(4) {
+            padding-top: 20px;
+        }
+        .fa.fa-envelope, .fa.fa-phone, .fa.fa-facebook-square,
+        .fa.fa-twitter-square, .fa.fa-google-plus-square {
+            font-size: 22px;
+            color: #fff;
+            padding-right: 10px;
+        }
 }
 
     .logo-footer-wrapper {
         display: flex;
         flex-basis: 33%;
         align-items: center;
-        width: 280px;
     }
 
     .business-hours {

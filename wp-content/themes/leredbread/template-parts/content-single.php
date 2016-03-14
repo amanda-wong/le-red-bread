@@ -15,7 +15,9 @@
 		<?php endif; ?>
 
 		<?php the_title( '<h2 class="entry-title">', '</h2>' ); ?>
-
+		<div class="entry-meta">
+			<?php red_starter_posted_on(); ?> / <a href="<?php echo get_comments_link( $post->ID ); ?>"><?php comments_number( '0 Comments', '1 Comment', '% Comments' ); ?></a> / <?php red_starter_posted_by(); ?>
+		</div>
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
@@ -31,4 +33,5 @@
 	<footer class="entry-footer">
 		<?php red_starter_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
+	<hr />
 </article><!-- #post-## -->

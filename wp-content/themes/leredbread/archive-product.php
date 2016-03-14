@@ -14,7 +14,7 @@ get_header(); ?>
 				<h2>Our products are made fresh daily</h2>
 				<p>We are a team of creative and talented individuals who love making delicious treats.</p>
 			</header><!-- .page-header -->
-			<div class="heading-decor"><hr /></div>
+			<hr />
 			<section class="product-categories">
 				<?php $terms = get_terms( 'product-type'); ?>
 				<?php if (! empty($terms) ) : ?>

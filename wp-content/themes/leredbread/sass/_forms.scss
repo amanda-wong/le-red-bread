@@ -35,6 +35,7 @@ input[type="password"],
 textarea {
 	margin-top: 5px;
 	color: #666;
+	padding-left: 10px;
 	border: $border__solid;
 	border-radius: 3px;
 	background-color: $color__background-secondary;
@@ -51,9 +52,8 @@ textarea {
 .search-form {
 	fieldset {
 		padding-right: 0;
-		width: 240px;
-		border: none;
 		width: 220px;
+		border: none;
 		height: 44px;
 		label {
 			width: 175px;
@@ -80,7 +80,12 @@ textarea {
 	border: none;
 	font-size: 15px;
 	padding: 5px;
+	&:hover {
+		background-color: transparent;
+	}
 }
+
+/* Contact Form */
 
 .contact-form-wrap {
 	input[type="text"],
@@ -110,22 +115,87 @@ textarea {
 	}
 }
 
-.contact-form-wrap {
-	.name-email-wrap {
-		display: flex;
-		input[type="text"] {
-			flex-basis: 45%;
+/* Contact Form */
+.wpcf7-form  {
+	p {
+		font-weight: bold;
+		color: $color__mediumgrey-brand;
+		span {
+			color: $color__red-brand;
 		}
-		input[type="email"] {
-			flex-basis: 45%;
+	}
+	input[type="text"],
+	input[type="email"], {
+		height: 40px;
+		width: 100%;
+	}
+}
+
+/* Search Form */
+
+.search-no-results .site-main {
+	.search-form {
+		fieldset {
+			padding-right: 0;
+			width: 400px;
+			border: none;
+			height: 44px;
+			label {
+				width: 175px;
+			}
+			.search-submit {
+				background-color: $color__brown-brand;
+				padding: 5px 10px;
+				.fa.fa-search {
+					color: #fff;
+				}
+				&:hover {
+					background-color: #6b1416;
+					cursor: pointer;
+				}
+				&:active, &:focus {
+					outline: none;
+				}
+			}
+		}
+		input {
+			padding-left: 10px;
+			border: $border__solid;
+			background-color: $color__background-secondary;
+			font-family: $font__main;
+			font-weight: bold;
+			color: $color__mediumgrey-brand;
+			&:focus {
+			outline: none;
+			}
 		}
 	}
 }
 
-.search-no-results {
-	.no-results {
-		.page-title {
-			border-bottom: $border__dashed;
-		}
+/* Comment Form */
+
+.comment-form {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	.required {
+		color: $color__red-brand;
+	}
+	p:not(:last-child) {
+		display: flex;
+		flex-direction: column;
+	}
+	input[type="text"],
+	input[type="email"],
+	input[type="url"] {
+		height: 40px;
+	}
+
+	.comment-form-comment, .comment-form-url {
+		flex-basis: 100%;
+	}
+
+	.comment-form-author, .comment-form-email {
+		flex-basis: 48%;
 	}
 }

@@ -11,7 +11,7 @@ get_header(); ?>
 				<h2>Learn about our team and culture</h2>
 				<p><?php echo CFS()->get( 'tagline' ); ?></p>
 			</header>
-			<hr><div></div></hr>	
+			<hr />	
 			<div class="about-info-container">
 				<div class="about-two-columns">
 					<div>

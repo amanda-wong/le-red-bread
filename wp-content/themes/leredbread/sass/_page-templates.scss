@@ -89,7 +89,7 @@
 .latest-post-cube-container {
     display: flex;
     width: $fixed-width;
-    margin: 50px auto;
+    margin: 0 auto;
     .latest-post-cube {
         flex-basis: 25%;
         height: 270px;
@@ -231,7 +231,10 @@
 
 .product-page-header {
     width: $fixed-width;
-    margin: 50px auto;
+    margin: 0 auto;
+    h2 {
+        margin-top: 0;
+    }
     p {
         text-align: center;
     }
@@ -300,13 +303,31 @@
 
 .tax-product-type {
     .product-type-page-header {
+        border-bottom: $border__dashed;
+        margin-bottom: 35px;
         h1 {
             text-transform: uppercase;
             margin-bottom: 0;
+
         }
     }
 }
 
+.type-product {
+    border-bottom: $border__dashed;
+    header {
+        display: flex;
+        img {
+            width: 150px;
+            height: 150px;
+        }
+        h2 {
+            margin-top: 0;
+            height: 50px;
+
+        }
+    }
+}
 
 
 /* Single Product */
@@ -324,7 +345,14 @@
         margin-top: 0;
         p {
             margin-top: 0;
+
         }
     }
+
+}
+
+/* Archive */
+
+.page-header {
 
 }

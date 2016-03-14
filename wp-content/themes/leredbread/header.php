@@ -24,7 +24,7 @@
 			<header id="masthead" class="site-header" role="banner">
 				<div class="social-container">
 					<div class="logo-wrapper">
-						<img class="logo" src="<?php bloginfo('template_directory'); ?>/assets/images/lrb-logo.svg" alt="Le Red Bread Logo">
+						<a href="/"><img class="logo" src="<?php bloginfo('template_directory'); ?>/assets/images/lrb-logo.svg" alt="Le Red Bread Logo"></a>
 					</div>
 					<div class="social">
 						<i class="fa fa-facebook"></i><i class="fa fa-twitter"></i><i class="fa fa-google-plus"></i><i class="fa fa-envelope"></i>
