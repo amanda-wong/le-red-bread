@@ -32,8 +32,8 @@
 	margin: 0 0 $base__space-unit;
 }
 
-.tax-product-type, .single-product, .page, .search-results,
-.error404, .single-post {
+.tax-product-type, .single-product, .page, .search-results, .search-no-results,
+.error404, .single-post, .archive {
 	.content-area {
 		display: flex;
 		width: $fixed-width;
@@ -196,4 +196,16 @@
 		color: $color__mediumgrey-brand;
 	}
 }
-/* Search */
+/* Search and 404 Page*/
+
+.search-results {
+	.page-title {
+		text-transform: uppercase;
+		padding-bottom: 20px;
+		border-bottom: $border__dashed;
+	}
+
+	.entry-title {
+		text-transform: none;
+	}
+}

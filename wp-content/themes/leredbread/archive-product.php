@@ -10,11 +10,11 @@ get_header(); ?>
 
 		<?php if ( have_posts() ) : ?>
 
-			<header class="product-page-header">	
+			<header class="product-page-header">
 				<h2>Our products are made fresh daily</h2>
 				<p>We are a team of creative and talented individuals who love making delicious treats.</p>
 			</header><!-- .page-header -->
-			<hr />
+			<div class="heading-decor"><hr /></div>
 			<section class="product-categories">
 				<?php $terms = get_terms( 'product-type'); ?>
 				<?php if (! empty($terms) ) : ?>

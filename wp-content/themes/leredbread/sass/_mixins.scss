@@ -11,17 +11,6 @@
 	margin-right: auto;
 }
 
-@mixin heading2 {
-	font-size: 30px;
-	text-transform: uppercase;
-	text-align: center;
-}
-
-@mixin heading3 {
-	font-size: 25px;
-	color: #400c0d;
-}
-
 @mixin single-header-link {
 	color: #db272a;
 	text-decoration: none;

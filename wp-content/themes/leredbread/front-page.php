@@ -42,7 +42,7 @@ get_header(); ?>
             </section>
             <section class="latest-news">
                 <h2>Our latest news</h2>
-				<hr />
+				<div class="heading-decor"><hr /></div>
 				<?php
 					$args = array( 'post_type' => 'post', 'numberposts' => 4 );
 					$latest_posts = get_posts( $args );
@@ -69,7 +69,7 @@ get_header(); ?>
             </section>
 			<section class="testimonials">
 				<h2>What others say about us</h2>
-				<hr />
+				<div class="heading-decor"><img src="<?php bloginfo('template_directory'); ?>/assets/images/grey-dot.png" alt="Dot"><hr /></div>
 				<div class="testimony-container">
 					<div class="individual-testimonials">
 						<img src="<?php bloginfo('template_directory'); ?>/assets/images/dr-dosist-headshot.png" alt="Dr. Dosist">

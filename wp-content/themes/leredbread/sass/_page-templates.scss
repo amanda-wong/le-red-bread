@@ -279,18 +279,18 @@
         .product-type-price {
             display: flex;
             justify-content: space-between;
-            background: url('../assets/images/dot.png') repeat-x bottom;
-            padding: 5px 0;
+            background: url('../../assets/images/dot.jpg') repeat-x 100%;
+            background-size: 6px auto;
             margin-top: 0;
             span {
                 font-family: $font__main;
+                background-color: #fff;
             }
             span:first-child {
-                margin-left: 15px;
+                padding: 0 5px 5px 15px;
             }
             span:last-child {
-                margin-right: 15px;
-
+                padding: 0 15px 5px 5px;
             }
         }
     }
