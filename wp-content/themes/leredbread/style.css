@@ -1508,6 +1508,7 @@ object {
       width: 150px;
       height: 150px; }
     .type-product header h2 {
+      padding-left: 10px;
       margin-top: 0;
       height: 50px; }
 
@@ -1524,5 +1525,3 @@ object {
   margin-top: 0; }
   .single-product .entry-content p {
     margin-top: 0; }
-
-/* Archive */
