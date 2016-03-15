@@ -196,6 +196,7 @@
 }
 /* Search and 404 Page*/
 
+
 .search-results, .search-no-results {
 	.page-title {
 		text-transform: uppercase;
@@ -205,5 +206,19 @@
 
 	.entry-title {
 		text-transform: none;
+	}
+}
+
+.error404 {
+	.page-content {
+		margin-top: 0;
+	}
+	.widget_recent_entries, .widget_categories {
+		padding: 0;
+	}
+	.widget_recent_entries {
+		h2 {
+			text-align: left;
+		}
 	}
 }

@@ -304,31 +304,36 @@
 .tax-product-type {
     .product-type-page-header {
         border-bottom: $border__dashed;
-        margin-bottom: 35px;
-        h1 {
-            text-transform: uppercase;
-            margin-bottom: 0;
-
+        margin-bottom: 25px;
+        .page-title {
+            margin-top: 0;
         }
     }
-}
-
-.type-product {
-    border-bottom: $border__dashed;
-    header {
+    article {
+        border-bottom: $border__dashed;
+        margin-bottom: 25px;
         display: flex;
+        height: 176px;
         img {
             width: 150px;
             height: 150px;
         }
-        h2 {
-            padding-left: 10px;
+        .entry-content {
+            margin: 0 0 0 15px;
+            width: 90%;
             margin-top: 0;
-            height: 50px;
+            height: 150px;
+
+            h2 {
+                margin-top: 0;
+            }
+            p {
+                margin-bottom: 10px;
+                height: 50px;
+            }
         }
     }
 }
-
 
 /* Single Product */
 
