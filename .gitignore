@@ -45,11 +45,6 @@ wp-content/*
 !wp-content/themes/
 !wp-content/uploads/
 
-# Ignore everything in "plugins" except certain plugins. #
-# ========================================================== #
-wp-content/plugins/*
-!wp-content/plugins/lrb-functionality/
-!wp-content/plugins/business-hours-widget/
 
 # Ignore everything in "themes" except the active theme. #
 # ========================================================== #
